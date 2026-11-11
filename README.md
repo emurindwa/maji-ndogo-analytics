@@ -3,9 +3,8 @@ git config --global user.name "Emmanuel Murindwa"
 git config --global user.email "emurindwa222@gmail.com"
 git clone https://github.com/emurindwa/maji-ndogo-analytics.git
 cd maji-ndogo-analytics
-echo "*.db" >> .gitignore
-git add .gitignore
-git commit -m "Ignore survey database files"
+git clone https://github.com/emurindwa/maji-ndogo-analytics.git
+cd maji-ndogo-analytics
 mkdir 2_oop_and_analysis
 cat > 2_oop_and_analysis/README.md << 'EOF'
 # Maji Ndogo Analytical Engineering: Case Study
@@ -28,3 +27,4 @@ git add 2_oop_and_analysis/
 git commit -m "Add case study skeleton"
 git branch -M main
 git push -u origin main
+git log --oneline
