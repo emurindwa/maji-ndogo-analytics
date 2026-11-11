@@ -1,7 +1,30 @@
 # maji-ndogo-analytics
-Case study: analytical engineering on the Maji Ndogo farm survey
-git config --global user.name "Emmanuel Murindwa"
+git config --global user.name "Your Name"
 git config --global user.email "your-github-email@example.com"
 git clone https://github.com/emurindwa/maji-ndogo-analytics.git
 cd maji-ndogo-analytics
-ls
+echo "*.db" >> .gitignore
+git add .gitignore
+git commit -m "Ignore survey database files"
+mkdir 2_oop_and_analysis
+cat > 2_oop_and_analysis/README.md << 'EOF'
+# Maji Ndogo Analytical Engineering: Case Study
+
+## The problem
+
+## What I built
+
+### Auditing engine: search and sort at scale
+
+### Field Registry: data that validates itself
+
+### Crop recommendation
+
+## Evidence
+
+## How I shipped it
+EOF
+git add 2_oop_and_analysis/
+git commit -m "Add case study skeleton"
+git branch -M main
+git push -u origin main
