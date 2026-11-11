@@ -1,6 +1,6 @@
 # maji-ndogo-analytics
-git config --global user.name "Your Name"
-git config --global user.email "your-github-email@example.com"
+git config --global user.name "Emmanuel Murindwa"
+git config --global user.email "emurindwa222@gmail.com"
 git clone https://github.com/emurindwa/maji-ndogo-analytics.git
 cd maji-ndogo-analytics
 echo "*.db" >> .gitignore
